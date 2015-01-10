@@ -56,7 +56,7 @@ int main()
         cout<<"C. "<<odpC[i]<<endl;
         cout<<"D. "<<odpD[i]<<endl;
 
-        cout<<"Twoja odpowiedz: ";
+        cout<<"Twoja odpowiedz: "; //komentarz - arek
         cin>>odpowiedz;
 
         transform(odpowiedz.begin(), odpowiedz.end(), odpowiedz.begin(), ::tolower);
